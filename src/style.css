@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 60px;
+}
+.stopwatch {
+  margin-top: 50px;
+  border: 10px solid palevioletred;
+  border-radius: 15px;
+  padding: 50px;
+  color: palevioletred;
+}
+
+.buttons {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.btn-start, .btn-stop, .btn-reset{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: lavender;
+}

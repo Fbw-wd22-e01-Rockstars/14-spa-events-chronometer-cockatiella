@@ -1,10 +1,11 @@
-import React from "react"
-function App() {
+import Stopwatch from "./Stopwatch";
+
+const App = () => {
   return (
     <div className="App">
-      <h1>My React App</h1>
+      <Stopwatch />
     </div>
   );
-}
+};
 
 export default App;
